@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/hospital"
+        android:icon="@drawable/ic_hospital_icon"
+        android:title="Hospital"
+       />
+    <item
+        android:id="@+id/pharmacy"
+        android:icon="@drawable/ic_pharmacy"
+        android:title="Pharmacy"
+         />
+    <item
+        android:id="@+id/bloodBank"
+        android:icon="@drawable/ic_blood_bank"
+        android:title="Blood Bank"
+        />
+    <item
+        android:id="@+id/atm"
+        android:icon="@drawable/ic_atm"
+        android:title="ATM"
+        />
+</menu>

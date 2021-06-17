@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_not_found_user"
+        android:layout_gravity="center_horizontal"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient not found with this ID"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="#ff5a73"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        android:text="Please check QR code on card again"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/reScanBtn"
+        android:layout_marginTop="20dp"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:text="Rescan"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>
